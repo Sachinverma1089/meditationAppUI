@@ -1,0 +1,44 @@
+name: apniapp
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: 2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/
+   - assets/icons/
+  #  - images/a_dot_ham.jpeg
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo/Cairo-Black.ttf
+          weight: 900
+        
+
+        
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
